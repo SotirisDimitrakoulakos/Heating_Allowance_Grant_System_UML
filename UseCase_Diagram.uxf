@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>280</x>
+      <y>595</y>
+      <w>56</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>ΠΟΛΙΤΗΣ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>406</x>
+      <y>637</y>
+      <w>98</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ΣΥΝΔΕΣΗ ΣΤΗΝ 
+ΕΦΑΡΜΟΓΗ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>511</x>
+      <y>497</y>
+      <w>70</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>80.0;22.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>350</x>
+      <y>483</y>
+      <w>168</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΕΝΤΑΞΗ ΣΤΟΥΣ ΔΙΚΑΙΟΥΧΟΥΣ
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>686</x>
+      <y>700</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΥΠΟΒΟΛΗ ΑΙΤΗΣΗΣ
+ΕΠΙΔΟΜΑΤΟΣ ΠΕΤΡΕΛΑΙΟΥ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>497</x>
+      <y>644</y>
+      <w>112</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>420</x>
+      <y>707</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>ΑΝΑΚΤΗΣΗ ΑΦΜ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>371</x>
+      <y>567</y>
+      <w>140</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ΣΥΜΠΛΗΡΩΣΗ ΣΤΟΙΧΕΙΩΝ
+ΑΠΟ ΠΟΛΙΤΗ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>581</y>
+      <w>70</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>910</x>
+      <y>658</y>
+      <w>210</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ΔΙΑΣΤΑΥΡΩΣΗ ΑΡΙΘΜΟΥ 
+ΠΑΡΟΧΗΣ ΑΙΤΗΣΗΣ 
+ΜΕ ΑΡΧΕΙΟ ΔΕΗ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>791</x>
+      <y>504</y>
+      <w>91</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>ΕΓΚΡΙΣΗ ΑΙΤΗΣΗΣ
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>742</x>
+      <y>504</y>
+      <w>63</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;15.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>567</x>
+      <y>483</y>
+      <w>182</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>ΑΠΟΘΗΚΕΥΣΗ ΑΙΤΗΣΗΣ
+ΚΑΙ ΕΠΙΔΟΤΟΥΜΕΝΗΣ 
+ΠΟΣΟΤΗΤΑΣ ΣΤΟΝ ΠΙΝΑΚΑ 
+ΕΓΚΕΚΡΙΜΕΝΩΝ ΑΙΤΗΣΕΩΝ
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>931</x>
+      <y>476</y>
+      <w>161</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>ΕΛΕΓΧΟΣ ΠΛΗΡΩΣΗΣ
+ΕΙΣΟΔΗΜΑΤΙΚΩΝ ΚΡΙΤΗΡΙΩΝ
+-
+extentions points
+ΜΗ ΠΛΗΡΩΣΗ ΚΡΙΤΗΡΙΩΝ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>875</x>
+      <y>504</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1106</x>
+      <y>588</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΕΙΣΑΓΩΣΗ ΑΙΤΗΣΗΣ 
+ΣΤΟΝ ΠΙΝΑΚΑ 
+ΕΚΚΡΕΜΩΝ ΑΙΤΗΣΕΩΝ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1113</x>
+      <y>630</y>
+      <w>84</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;100.0;70.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>833</x>
+      <y>672</y>
+      <w>91</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;110.0;70.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>945</x>
+      <y>749</y>
+      <w>168</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΠΑΡΑΧΩΡΗΣΗ ΑΡΧΕΙΟΥ
+ΕΝΕΡΓΩΝ ΑΡΙΘΜΩΝ
+ΠΑΡΟΧΗΣ ΡΕΥΜΑΤΟΣ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1106</x>
+      <y>756</y>
+      <w>245</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;330.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>707</y>
+      <w>119</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>595</x>
+      <y>637</y>
+      <w>140</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΣΥΛΛΟΓΗ &amp; ΚΑΤΑΧΩΡΗΣΗ
+ΣΤΟΙΧΕΙΩΝ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>679</y>
+      <w>63</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;62.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1015</x>
+      <y>693</y>
+      <w>63</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1155</x>
+      <y>476</y>
+      <w>161</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ΧΑΡΑΚΤΗΡΙΣΜΟΣ ΑΙΤΗΣΗΣ
+ΩΣ ΜΗ ΕΓΚΥΡΗ &amp;
+ΕΝΗΜΕΡΩΣΗ ΑΠΟΡΡΙΨΗΣ 
+ΑΙΤΗΣΗΣ
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>819</x>
+      <y>399</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΥΠΟΛΟΓΙΣΜΟΣ ΜΕΓΙΣΤΟΥ
+ΕΠΙΔΟΤΟΥΜΕΝΟΥ ΑΡΙΘΜΟΥ
+ΛΙΤΡΩΝ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>350</x>
+      <y>252</y>
+      <w>154</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ΑΠΟΔΟΣΗ/ΕΚΚΑΘΑΡΙΣΗ
+ΕΠΙΔΟΜΑΤΟΣ ΠΕΤΡΕΛΑΙΟΥ
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1134</x>
+      <y>287</y>
+      <w>154</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ΣΥΛΛΟΓΗ ΕΝΕΡΓΩΝ 
+ΕΓΚΕΚΡΙΜΕΝΩΝ ΑΙΤΗΣΕΩΝ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1134</x>
+      <y>238</y>
+      <w>126</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ΣΥΛΛΟΓΗ ΑΓΟΡΩΝ
+ΠΕΤΡΕΛΑΙΟΥ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>812</x>
+      <y>252</y>
+      <w>196</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΣΥΣΧΕΤΙΣΗ ΑΙΤΗΣΕΩΝ
+ΚΑΙ ΑΓΟΡΩΝ ΓΙΑ ΤΗΝ
+ΠΕΡΙΟΔΟ ΚΑΤΑΝΑΛΩΣΗΣ
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1001</x>
+      <y>238</y>
+      <w>147</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0;10.0;65.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1001</x>
+      <y>280</y>
+      <w>147</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>190.0;40.0;10.0;40.0;10.0;13.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1253</x>
+      <y>238</y>
+      <w>98</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;120.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>497</x>
+      <y>259</y>
+      <w>105</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>130.0;15.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>287</x>
+      <y>602</y>
+      <w>133</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;170.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1085</x>
+      <y>497</y>
+      <w>84</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1085</x>
+      <y>427</y>
+      <w>91</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΜΗ ΠΛΗΡΩΣΗ 
+ΚΡΙΤΗΡΙΩΝ
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1120</x>
+      <y>469</y>
+      <w>21</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1008</x>
+      <y>546</y>
+      <w>112</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>140.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>371</x>
+      <y>280</y>
+      <w>63</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;300.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>343</x>
+      <y>217</y>
+      <w>980</w>
+      <h>609</h>
+    </coordinates>
+    <panel_attributes>ΔΙΑΔΙΚΤΥΑΚΗ ΕΦΑΡΜΟΓΗ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>588</x>
+      <y>315</y>
+      <w>133</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>ΑΠΟΣΤΟΛΗ ΠΟΣΩΝ
+ΕΠΙΔΟΤΗΣΕΩΝ ΣΤΟ
+ΤΡΑΠΕΖΙΚΟ ΣΥΣΤΗΜΑ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>560</x>
+      <y>420</y>
+      <w>147</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΑΠΟΣΤΟΛΗ ΑΝΑΦΟΡΑΣ
+ΣΤΟ ΓΕΝΙΚΟ ΛΟΓΙΣΤΗΡΙΟ
+ΤΟΥ ΚΡΑΤΟΥΣ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>287</y>
+      <w>224</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>300.0;190.0;300.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>287</y>
+      <w>154</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;200.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>574</y>
+      <w>105</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0;130.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>497</x>
+      <y>651</y>
+      <w>112</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;100.0;140.0;100.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>742</x>
+      <y>441</y>
+      <w>168</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;40.0;10.0;40.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>588</x>
+      <y>238</y>
+      <w>154</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>ΥΠΟΛΟΓΙΣΜΟΣ 
+ΕΠΙΔΟΤΟΥΜΕΝΗΣ ΠΟΣΟΤΗΤΑΣ
+-
+extension points:
+ΥΠΑΡΧΕΙ ΤΙΜΟΛΟΓΙΟ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>735</x>
+      <y>259</y>
+      <w>91</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>721</x>
+      <y>280</y>
+      <w>112</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;
+</panel_attributes>
+    <additional_attributes>140.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>819</x>
+      <y>322</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ΥΠΟΛΟΓΙΣΜΟΣ ΑΝΑΛΟΓΗΣ
+ΠΟΣΟΤΗΤΑΣ ΤΙΜΟΛΟΓΙΟΥ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1337</x>
+      <y>217</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+
+ΔΙΠΕΘΕ
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1337</x>
+      <y>735</y>
+      <w>84</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+
+ΔΕΗ
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>217</x>
+      <y>700</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>halign=left
+
+
+LDAP 
+SERVER</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>266</x>
+      <y>707</y>
+      <w>42</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1379</x>
+      <y>224</y>
+      <w>49</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1365</x>
+      <y>742</y>
+      <w>49</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+</diagram>

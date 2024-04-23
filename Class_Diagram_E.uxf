@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>324</x>
+      <y>216</y>
+      <w>261</w>
+      <h>549</h>
+    </coordinates>
+    <panel_attributes>Application
+--
+- AFM: String
+- address: String
+- houseM2: String
+- supplyNumberDEH: String
+- type: String
+- supplyNumberShared: String
+- percPartHeatCost: double
+- IBAN: String
+- max_subsidized_amount: int
+- approved : boolean
+- allowance_amount: float
+--
++ Application()
++ getAFM(): boolean
++ getAddress(): String
++ getHouseM2(): int
++ getDehNumber(): String
++ getType(): String
++ getDehNumberShared(): String
++ getPercPartitipation(): double
++ getIBAN(): String
++ get_allowance(): float
++ isApproved(): boolean
++ getAllowanceAmount(): float
+
++ setAFM(afm:String)
++setData(address:String,
+houseM2:String, supplyNumberDEH:String, 
+type:String, supplyNumberShared:String,
+percPartHeatCost:double, IBAN:String)
++ setAddress(address:String)
++ setHouseM2(value: int)
++ setDehNumber(number:String)
++ setType(type: String)
++ setDehNumberShared(number: String)
++ setPercPartitipation(percValue: double)
++ setIBAN(iban: String)
++ set_allowance(value: float)
++ setApproves(value: boolean)
++ addAllowanceAmount(value: float)
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1206</x>
+      <y>441</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>DIPETHE
+--
+- purchases: πίνακας[0..*]
+--
++ getPurchases(): πίνακας;
++ setPurchaces(afm: String)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>0</y>
+      <w>189</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>LDAP
+--
+- AFM: String
+--
++ LDAP()
++ getAFM(): String;
++ setAFM(afm: String)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>99</y>
+      <w>189</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>DEH
+--
+- file_data: String
+--
++ setFileData(data: String)
++ getFileData(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1206</x>
+      <y>576</y>
+      <w>243</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>OIL_PURCHASE
+--
+- has_invoice: boolean
+- application: Application
+--
++ hasInvoice(): boolean
++ setApplication(application: Application)
++ getApplication(): Application</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>171</y>
+      <w>315</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>IntegrationBeneficiariesProcess
+-
+_- active_approved_applications   : πίνακας[0..*]_
+_- pending_approved_applications  : πίνακας[0..*]_
+- application: Application
+- AFM			 							: String
+
+-
++ LogIn(username:String, password:String)
++ getAFM(): String
++ createNewApplication(AFM:String): Application
++ applicationCompleting(address:String,
+houseM2:String, supplyNumberDEH:String, 
+type:String, supplyNumberShared:String,
+percPartHeatCost:double, IBAN:String)
++ getActivePowerSupplyNumbersFile(): String
++ isPowerSupplyNumberInDEH(): boolean
++ addApplicationToPending(application: Application)
++ fulfillmentOfCriteria(): boolean
++ sendCitizenUpdate(): String
++ CalculateMAXSizeOfL()
++ addApplicationToApproved(application: Application)
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>675</x>
+      <y>576</y>
+      <w>486</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>BONUS_RETURN
+-
+- active_approved_applications   : πίνακας[0..*]
+- oil_purchases						: πίνακας[0..*]
+- allowanceAmount: float
+-
++ liquidation()
++ getActiveApprovedApplications(): πίνακας[0..*]
++ getOilPurchases(): πίνακας[0..*]
++ linkPurchasesWithApplications(applications: πίνακας[0..*], purchases: πίνακας[0..*])
++PurchaseHasInvoice():boolean
++ correspondingQuantityForInvoice()
++ calculateAllowance()
++ setNewMaxSubsidizedAmmount(oil_purchase_calc_liter: int)
++ create_report()
++ sendAllowancesToBankingSystem()
++ send_report()
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>297</y>
+      <w>162</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>504</y>
+      <w>36</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>81</y>
+      <w>27</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1026</x>
+      <y>144</y>
+      <w>144</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>140.0;10.0;40.0;10.0;40.0;170.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>837</x>
+      <y>468</y>
+      <w>387</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>410.0;10.0;290.0;10.0;290.0;70.0;10.0;70.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>765</x>
+      <y>477</y>
+      <w>36</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>432</y>
+      <w>117</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>110.0;250.0;50.0;250.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>657</x>
+      <y>864</y>
+      <w>270</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>BankSystem
+-
+- IBAN: String
+- amount: float
+-
++ receivePayment(IBAN:String, amount:float)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>963</x>
+      <y>864</y>
+      <w>171</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>General_Accounting_Office
+
+-
++ receive_report(report)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>783</x>
+      <y>801</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1035</x>
+      <y>801</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>0</y>
+      <w>369</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>MinistryOfEconomics
+--
+-username: String
+-passwords: String
+
+--
+CheckPasswords(username:String, passwords:String): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>621</x>
+      <y>81</y>
+      <w>117</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;110.0;140.0</additional_attributes>
+  </element>
+</diagram>
